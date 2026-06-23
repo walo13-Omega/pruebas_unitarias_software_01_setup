@@ -1,0 +1,24 @@
+{
+  "name": "pruebas_unitarias_software_01_setup",
+  "version": "1.0.0",
+  "description": "1. Instala Node y NPM\r 2. Inicializa un nuevo proyecto de node e instala jest\r ```bash\r npm init -y\r npm install --save-dev jest\r ```\r 3. Modifica `package.json` para que incluya este comando `test`:\r ```json\r \"scripts\": {\r   \"test\": \"jest\"\r }\r ```\r 4. Crea un archivo `sumar.test.ts` y agrega este contenido\r ```typescript\r test('prueba falsa', () => {\r   expect(true).toBe(true);\r });\r ```\r 5. Ejecuta la prueba con teste comando\r ```bash\r npm test\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walo13-Omega/pruebas_unitarias_software_01_setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/walo13-Omega/pruebas_unitarias_software_01_setup/issues"
+  },
+  "homepage": "https://github.com/walo13-Omega/pruebas_unitarias_software_01_setup#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
